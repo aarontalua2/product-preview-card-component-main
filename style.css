@@ -12,4 +12,72 @@
 
 p {
   font-size: 14px;
+}
+
+body {
+  background: var(--color-primary-cream);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--ff-montserrat);
+  font-size: 14px;
+}
+
+h2 {
+  font-family: var(--ff-frauncess);
+  font-size: 2rem;
+}
+
+.card {
+  display: flex;
+  width: 650px;
+  height: 500px;
+  background: var(--color-neutral-white);
+  border-radius: 20px;
+}
+.card img {
+  border-radius: 20px 0 0 20px;
+}
+
+.card-info {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.gray {
+  color: var(--color-neutral-dark-grayish-blue);
+}
+
+.card__price {
+  color: var(--color-primary-dark-cyan);
+  display: flex;
+  align-items: center;
+}
+
+.previous-price {
+  color: var(--color-neutral-dark-grayish-blue);
+  display: inline-block;
+  font-size: 14px;
+  font-weight: var(--fw-500);
+  font-family: var(--ff-montserrat);
+  text-decoration-line: line-through;
+}
+
+.add-to-cart {
+  background: var(--color-primary-dark-cyan);
+  border-radius: 15px;
+  padding: 1.1rem;
+  text-align: center;
+  color: white;
+  font-weight: var(--fw-700);
+}
+.add-to-cart img {
+  margin-right: 0.5rem;
+}
+
+.card__label {
+  letter-spacing: 5px;
 }/*# sourceMappingURL=style.css.map */
